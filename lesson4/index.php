@@ -41,12 +41,6 @@ ololpar();
 // Qiyinroq kod yozishdan oldin, uning algoritmini o’zbek tilida yozamiz (Algoritm - bu bajarishimiz kerak bo’lgan ishlarning ketma-ketligi):
 // Agar, so’rovnomaga foydalanuvchi ism va familiyasini kiritgan bo’lsa, ularni ekranga chiqar. Bo’lmasa, ekranga “So’rovnomani to’ldiring” gapini chiqar:
 
-
-
-
-
-
-
 ?>
 
 <!DOCTYPE html>
