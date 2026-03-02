@@ -59,11 +59,13 @@ print_r(getUserInfo(1));
         } else{
             print 'Please fill in the form';
         }
+
+        var_dump($_POST);
     ?>
 
     <hr/>
     <h1>Form</h1>
-    <form>
+    <form method="post">
         Your given name: <input type="text" name="givenName"><br>
         Your family name: <input type="text" name="familyName"><br>
 
@@ -78,6 +80,16 @@ print_r(getUserInfo(1));
 
         <input type="submit" value="Submit">
     </form>
+
+    <!-- 
+        1. Biz brauzer orqali HTTP get usuli orqali so’rov yubordik va server bizga javob qaytardi:
+        http://localhost:8080/lesson5/index.php?givenName=John&familyName=Doe&isMarried=yes&football=on&volleyball=on&chess=on
+
+        2. Agar, ma’lumotlar post http usuli (method) orqali jo’natilgan bo’lsa, PHP’da ushbu ma’lumotlarni $_POST super global ko’pligi orqali topamiz:
+
+
+
+     -->
 
 </body>
 </html>
