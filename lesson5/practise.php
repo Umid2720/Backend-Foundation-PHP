@@ -28,8 +28,7 @@ print_r(getUserInfo(1));
 </head>
 <body>
 
-    <hr>
-
+<h1></h1>
     <?php
     // Agar, foydalanuvchi uylanganmisiz savoliga javob bersa, unda javobiga qarab matn chiqaramiz:
         if(isset($_GET['givenName'], $_GET['familyName'])){
@@ -38,24 +37,13 @@ print_r(getUserInfo(1));
 
             if(isset($_GET['isMarried'])){
                 if($_GET['isMarried'] === 'yes'){
-                    print 'Married' . '<br>';
+                    print 'Married';
                 } else {
-                    print 'Not married' . '<br>';
+                    print 'You are not married';
                 }
-            } 
-            
-            if(isset($_GET['football'])){
-                print 'I like football' . '<br>';
+            } else {
+                print 'You are not married';
             }
-
-            if(isset($_GET['volleyball'])){
-                print 'I like volleyball' . '<br>';
-            }
-
-            if(isset($_GET['chess'])){
-                print 'I like chess' . '<br>';
-            }
-            
         } else{
             print 'Please fill in the form';
         }
@@ -69,15 +57,10 @@ print_r(getUserInfo(1));
 
         Are you married? <br>
         <input type="radio" name="isMarried" value="yes"> Yes <br>
-        <input type="radio" name="isMarried" value="no"> No<br> <br>
-
-        Which sports do you like? <br>
-        <input type="checkbox" name="football"> Football <br>
-        <input type="checkbox" name="volleyball"> Volleyball <br>
-        <input type="checkbox" name="chess"> Chess <br>
-
+        <input type="radio" name="isMarried" value="no"> No<br>
         <input type="submit" value="Submit">
     </form>
 
+    
 </body>
 </html>
