@@ -1,31 +1,41 @@
 # Amaliy mashg‘ulot — 1-dars
 
-## Topshiriq 1 — CLI
+## Topshiriq 1 — Hello World
 
-1. `php -v` bilan PHP versiyani tekshiring
-2. `php -a` interaktiv rejimga kiring va `echo "Salom";` yozib ko‘ring
+example.php fayl yarating va quyidagilarni chiqaring:
 
-## Topshiriq 2 — Output
+Hello, World!
 
-`example.php` fayl yarating va quyidagilarni chiqaring:
+---
 
-- Hello World
-- Ismingiz
+## Topshiriq 2 — Ikki qatordan iborat output
 
-## Topshiriq 3 — Variables
+Terminalda quyidagi natija chiqsin:
 
-Quyidagi o‘zgaruvchilar yarating va ekranga chiqaring:
+Backend Foundation: PHP
+1-dars boshlandi
 
-- `string`, `int`, `float`, `bool`, `null`
-- `array` va `associative array`
+CLI’da yangi qator uchun PHP_EOL ishlating.
 
-## Topshiriq 4 — Function
+---
 
-`sum(int $a, int $b)` funksiyasini yozing va:
+## Topshiriq 3 — echo va print
 
-- `sum(10, 15)` ni sinang
-- `sum("10", "15")` ni sinab ko‘ring (strict_types bilan nima bo‘lishini kuzating)
+echo va print yordamida 2 ta alohida matn chiqaring.
+
+Masalan:
+Salom
+PHP
+
+---
+
+## Topshiriq 4 — Terminal orqali ishga tushirish
+
+1) php -v bilan PHP versiyani tekshiring  
+2) php example.php orqali faylni ishga tushiring  
+
+---
 
 ## Challenge
 
-`try/catch` ishlatib, TypeError chiqsa ham dastur to‘xtab qolmasin.
+example.php ichida 3 ta alohida echo yozing va har biri yangi qatordan chiqsin.

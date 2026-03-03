@@ -2,34 +2,59 @@
 
 ## PHP nima?
 
-PHP — server-side scripting language. PHP kod serverda ishlaydi va natijani brauzerga (yoki terminalga) chiqaradi.
+PHP — server-side scripting language.
+PHP kodi serverda ishlaydi va natijani brauzer yoki terminalga chiqaradi.
 
-## PHP’ni ishga tushirish
+---
 
-### 1) PHP o‘rnatilganini tekshirish
+## PHP o‘rnatilganini tekshirish
 
-```bash
- php -v
+Terminalda yozing:
 
-2) Interaktiv rejim
+php -v
+
+Agar versiya chiqsa — PHP o‘rnatilgan.
+
+---
+
+## Interaktiv rejim
+
+Terminalda yozing:
+
 php -a
 
-3) Chiqish:
-Ctrl + C yoki Ctrl + D yoki exit
+Chiqish uchun:
 
-4) Vaqtinchalik serverni ishga tushirish
-php -S localhost:8505
+exit
 
-5) To‘xtatish:
+yoki
+
 Ctrl + C
 
-6) Output
-(ekranga chiqarish)
+---
 
-7) PHP’da ko‘p ishlatiladiganlari:
-echo
-print
+## Vaqtinchalik serverni ishga tushirish
 
-CLI’da yangi qator uchun PHP_EOL ishlatish tavsiya etiladi.
+Terminalda yozing:
 
+php -S localhost:8505
+
+To‘xtatish uchun:
+
+Ctrl + C
+
+---
+
+## Output (ekranga chiqarish)
+
+PHP’da ekranga chiqarish uchun:
+
+- echo
+- print
+
+Misol:
+
+```php
+echo "Hello, World!";
+print "Salom!";
 ```
